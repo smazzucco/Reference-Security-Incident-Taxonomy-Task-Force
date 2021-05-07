@@ -133,9 +133,9 @@
           "value": "misconfiguration"
         },
         {
-          "description": "Physical sabotage, e.g cutting wires or malicious arson.",
-          "expanded": "Sabotage",
-          "value": "sabotage"
+          "description": "Physical sabotage, e.g cutting wires or malicious arson, also caused by terroristic attacks.",
+          "expanded": "Sabotage and Terrorism",
+          "value": "sabotage and terrorism"
         },
         {
           "description": "Outage caused e.g. by air condition failure or natural disaster.",
