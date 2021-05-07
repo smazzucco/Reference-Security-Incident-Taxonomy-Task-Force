@@ -138,9 +138,9 @@
           "value": "sabotage"
         },
         {
-          "description": "Outage caused e.g. by air condition failure or natural disaster.",
-          "expanded": "Outage",
-          "value": "outage"
+          "description": "Malfunction and outage caused e.g. by air condition and technical failure.",
+          "expanded": "Malfunction and Outage",
+          "value": "malfunction and outage"
         }
       ],
       "predicate": "availability"
