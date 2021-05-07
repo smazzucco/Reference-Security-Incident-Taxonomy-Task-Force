@@ -218,8 +218,8 @@
           "value": "information-disclosure"
         },
         {
-          "description": "A system which is vulnerable to certain attacks. Example: misconfigured client proxy settings (example: WPAD), outdated operating system version, XSS vulnerabilities, etc.",
-          "expanded": "Vulnerable system",
+          "description": "A system, application or service which is vulnerable to certain attacks. Example: misconfigured client proxy settings (example: WPAD), outdated operating system version, XSS vulnerabilities, etc.",
+          "expanded": "Vulnerable system, application or service",
           "value": "vulnerable-system"
         }
       ],
