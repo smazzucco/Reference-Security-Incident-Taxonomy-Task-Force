@@ -228,6 +228,16 @@
     {
       "entry": [
         {
+          "description": "Outage caused by natural disaster (e.g. earthquakes, storms, hurricanes, flooding, etc.).",
+          "expanded": "Natural or Environmental Disaster",
+          "value": "natural disaster"
+        }
+      ],
+      "predicate": "accidental-event"
+    },
+    {
+      "entry": [
+        {
           "description": "All incidents which don't fit in one of the given categories should be put into this class or the incident is not categorised.",
           "expanded": "Uncategorised",
           "value": "other"
@@ -296,6 +306,11 @@
       "description": "Open resolvers, world readable printers, vulnerability apparent from Nessus etc scans, virus signatures not up-to-date, etc",
       "expanded": "Vulnerable",
       "value": "vulnerable"
+    },
+    {
+      "description": "Accidental event (No Malice).",
+      "expanded": "Accidental event (No Malice)",
+      "value": "accidental-event"
     },
     {
       "description": "All incidents which don't fit in one of the given categories should be put into this class. If the number of incidents in this category increases, it is an indicator that the classification scheme must be revised",
