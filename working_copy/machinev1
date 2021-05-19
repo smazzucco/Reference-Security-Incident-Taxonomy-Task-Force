@@ -128,11 +128,6 @@
           "value": "ddos"
         },
         {
-          "description": "Software misconfiguration resulting in service availability issues, e.g. DNS server with outdated DNSSEC Root Zone KSK.",
-          "expanded": "Misconfiguration",
-          "value": "misconfiguration"
-        },
-        {
           "description": "Physical sabotage, e.g cutting wires or malicious arson.",
           "expanded": "Sabotage",
           "value": "sabotage"
@@ -145,7 +140,17 @@
       ],
       "predicate": "availability"
     },
-    {
+     {
+      "entry": [
+        {
+          "description": "Software misconfiguration resulting in service availability issues, e.g. DNS server with outdated DNSSEC Root Zone KSK.",
+          "expanded": "Misconfiguration",
+          "value": "misconfiguration"
+        }
+      ],
+      "predicate": "accidental-event"
+    },
+   {
       "entry": [
         {
           "description": "Unauthorised access to information, e.g. by abusing stolen login credentials for a system or application, intercepting traffic or gaining access to physical documents.",
@@ -296,6 +301,11 @@
       "description": "Open resolvers, world readable printers, vulnerability apparent from Nessus etc scans, virus signatures not up-to-date, etc",
       "expanded": "Vulnerable",
       "value": "vulnerable"
+    },
+    {
+      "description": "Accidental event (No Malice).",
+      "expanded": "Accidental event (No Malice)",
+      "value": "accidental-event"
     },
     {
       "description": "All incidents which don't fit in one of the given categories should be put into this class. If the number of incidents in this category increases, it is an indicator that the classification scheme must be revised",
